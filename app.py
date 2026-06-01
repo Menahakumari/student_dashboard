@@ -9,7 +9,7 @@ st.set_page_config(page_title="Student Performance Dashboard", layout="wide")
 st.title("📊 Academic Intervention Dashboard for At-Risk Students")
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\Madhu\Downloads\merged_dataset.csv")
+df = pd.read_csv("merged_dataset.csv")
 
 # ---------------------------
 # BASIC METRICS
